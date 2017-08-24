@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77BA6BAA0EACF35F10232810 /* libPods-AFAccumulating.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D9A0B89707CBBCEAEF7B6E /* libPods-AFAccumulating.a */; };
+		9677E02111AA8F422FDBCB5C /* libPods-AFAccumulatingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C9D48B0DF84A992E27B457 /* libPods-AFAccumulatingUITests.a */; };
 		E1C78CBE1F4D8B41000BEA17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C78CBD1F4D8B41000BEA17 /* main.m */; };
 		E1C78CC11F4D8B41000BEA17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C78CC01F4D8B41000BEA17 /* AppDelegate.m */; };
 		E1C78CC41F4D8B41000BEA17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C78CC31F4D8B41000BEA17 /* ViewController.m */; };
@@ -27,6 +29,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46FD650EED136C43755DA8AD /* Pods-AFAccumulating.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFAccumulating.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFAccumulating/Pods-AFAccumulating.release.xcconfig"; sourceTree = "<group>"; };
+		4F4C982F718CE62900D5AECD /* Pods-AFAccumulatingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFAccumulatingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFAccumulatingUITests/Pods-AFAccumulatingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		80D9A0B89707CBBCEAEF7B6E /* libPods-AFAccumulating.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFAccumulating.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C9D48B0DF84A992E27B457 /* libPods-AFAccumulatingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFAccumulatingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80E1DB90C61E84B1F5D2DD6 /* Pods-AFAccumulatingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFAccumulatingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFAccumulatingUITests/Pods-AFAccumulatingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE230B8A708D841B485711AD /* Pods-AFAccumulating.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFAccumulating.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFAccumulating/Pods-AFAccumulating.debug.xcconfig"; sourceTree = "<group>"; };
 		E1C78CB91F4D8B41000BEA17 /* AFAccumulating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFAccumulating.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C78CBD1F4D8B41000BEA17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E1C78CBF1F4D8B41000BEA17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77BA6BAA0EACF35F10232810 /* libPods-AFAccumulating.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +63,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9677E02111AA8F422FDBCB5C /* libPods-AFAccumulatingUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2144D7776141F51A00B9BA05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80D9A0B89707CBBCEAEF7B6E /* libPods-AFAccumulating.a */,
+				A1C9D48B0DF84A992E27B457 /* libPods-AFAccumulatingUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9543073B0BB65AC5312CF8E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE230B8A708D841B485711AD /* Pods-AFAccumulating.debug.xcconfig */,
+				46FD650EED136C43755DA8AD /* Pods-AFAccumulating.release.xcconfig */,
+				A80E1DB90C61E84B1F5D2DD6 /* Pods-AFAccumulatingUITests.debug.xcconfig */,
+				4F4C982F718CE62900D5AECD /* Pods-AFAccumulatingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E1C78CB01F4D8B41000BEA17 = {
 			isa = PBXGroup;
 			children = (
 				E1C78CBB1F4D8B41000BEA17 /* AFAccumulating */,
 				E1C78CD51F4D8B41000BEA17 /* AFAccumulatingUITests */,
 				E1C78CBA1F4D8B41000BEA17 /* Products */,
+				9543073B0BB65AC5312CF8E6 /* Pods */,
+				2144D7776141F51A00B9BA05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1C78CDB1F4D8B41000BEA17 /* Build configuration list for PBXNativeTarget "AFAccumulating" */;
 			buildPhases = (
+				B57534051E0267F7349BEB1E /* [CP] Check Pods Manifest.lock */,
 				E1C78CB51F4D8B41000BEA17 /* Sources */,
 				E1C78CB61F4D8B41000BEA17 /* Frameworks */,
 				E1C78CB71F4D8B41000BEA17 /* Resources */,
+				CFF79CD9EFCB972EF56FE35D /* [CP] Embed Pods Frameworks */,
+				6DD5739F9D322FDAE16478F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1C78CDE1F4D8B41000BEA17 /* Build configuration list for PBXNativeTarget "AFAccumulatingUITests" */;
 			buildPhases = (
+				12CB05A2E4D3FB8566194252 /* [CP] Check Pods Manifest.lock */,
 				E1C78CCE1F4D8B41000BEA17 /* Sources */,
 				E1C78CCF1F4D8B41000BEA17 /* Frameworks */,
 				E1C78CD01F4D8B41000BEA17 /* Resources */,
+				845E706E46D28D29FAF431FF /* [CP] Embed Pods Frameworks */,
+				6D176BA865C4021746941F62 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,6 +247,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12CB05A2E4D3FB8566194252 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6D176BA865C4021746941F62 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFAccumulatingUITests/Pods-AFAccumulatingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DD5739F9D322FDAE16478F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFAccumulating/Pods-AFAccumulating-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		845E706E46D28D29FAF431FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFAccumulatingUITests/Pods-AFAccumulatingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B57534051E0267F7349BEB1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CFF79CD9EFCB972EF56FE35D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFAccumulating/Pods-AFAccumulating-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E1C78CB51F4D8B41000BEA17 /* Sources */ = {
@@ -351,6 +482,7 @@
 		};
 		E1C78CDC1F4D8B41000BEA17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE230B8A708D841B485711AD /* Pods-AFAccumulating.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 99TJ338Z2H;
@@ -363,6 +495,7 @@
 		};
 		E1C78CDD1F4D8B41000BEA17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46FD650EED136C43755DA8AD /* Pods-AFAccumulating.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 99TJ338Z2H;
@@ -375,6 +508,7 @@
 		};
 		E1C78CDF1F4D8B41000BEA17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80E1DB90C61E84B1F5D2DD6 /* Pods-AFAccumulatingUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 99TJ338Z2H;
 				INFOPLIST_FILE = AFAccumulatingUITests/Info.plist;
@@ -387,6 +521,7 @@
 		};
 		E1C78CE01F4D8B41000BEA17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4C982F718CE62900D5AECD /* Pods-AFAccumulatingUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 99TJ338Z2H;
 				INFOPLIST_FILE = AFAccumulatingUITests/Info.plist;
