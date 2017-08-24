@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		77BA6BAA0EACF35F10232810 /* libPods-AFAccumulating.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D9A0B89707CBBCEAEF7B6E /* libPods-AFAccumulating.a */; };
 		9677E02111AA8F422FDBCB5C /* libPods-AFAccumulatingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C9D48B0DF84A992E27B457 /* libPods-AFAccumulatingUITests.a */; };
+		E1789A511F4EABE7009B6A81 /* AFAppItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E1789A501F4EABE7009B6A81 /* AFAppItem.m */; };
 		E1C78CBE1F4D8B41000BEA17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C78CBD1F4D8B41000BEA17 /* main.m */; };
 		E1C78CC11F4D8B41000BEA17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C78CC01F4D8B41000BEA17 /* AppDelegate.m */; };
 		E1C78CC41F4D8B41000BEA17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C78CC31F4D8B41000BEA17 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 		A1C9D48B0DF84A992E27B457 /* libPods-AFAccumulatingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFAccumulatingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80E1DB90C61E84B1F5D2DD6 /* Pods-AFAccumulatingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFAccumulatingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFAccumulatingUITests/Pods-AFAccumulatingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE230B8A708D841B485711AD /* Pods-AFAccumulating.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFAccumulating.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFAccumulating/Pods-AFAccumulating.debug.xcconfig"; sourceTree = "<group>"; };
+		E1789A4F1F4EABE7009B6A81 /* AFAppItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppItem.h; sourceTree = "<group>"; };
+		E1789A501F4EABE7009B6A81 /* AFAppItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppItem.m; sourceTree = "<group>"; };
 		E1C78CB91F4D8B41000BEA17 /* AFAccumulating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFAccumulating.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C78CBD1F4D8B41000BEA17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E1C78CBF1F4D8B41000BEA17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 				E1C78CC01F4D8B41000BEA17 /* AppDelegate.m */,
 				E1C78CC21F4D8B41000BEA17 /* ViewController.h */,
 				E1C78CC31F4D8B41000BEA17 /* ViewController.m */,
+				E1789A4F1F4EABE7009B6A81 /* AFAppItem.h */,
+				E1789A501F4EABE7009B6A81 /* AFAppItem.m */,
 				E1C78CBC1F4D8B41000BEA17 /* Supporting Files */,
 			);
 			path = AFAccumulating;
@@ -347,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1C78CC41F4D8B41000BEA17 /* ViewController.m in Sources */,
+				E1789A511F4EABE7009B6A81 /* AFAppItem.m in Sources */,
 				E1C78CC11F4D8B41000BEA17 /* AppDelegate.m in Sources */,
 				E1C78CBE1F4D8B41000BEA17 /* main.m in Sources */,
 			);
@@ -551,6 +557,7 @@
 				E1C78CDD1F4D8B41000BEA17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1C78CDE1F4D8B41000BEA17 /* Build configuration list for PBXNativeTarget "AFAccumulatingUITests" */ = {
 			isa = XCConfigurationList;
@@ -559,6 +566,7 @@
 				E1C78CE01F4D8B41000BEA17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
