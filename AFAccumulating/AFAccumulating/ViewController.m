@@ -9,6 +9,11 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+{
+    UIView *view;
+    UIView *view1;
+}
+
 
 @end
 
@@ -17,9 +22,37 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.view.backgroundColor = [UIColor purpleColor];
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    [self setupHiddenViewWithShow];
 }
 
+/** 视图view隐藏后他的位置依然可以用来作为参考 */
+- (void)setupHiddenViewWithShow {
+    view = [[UIView alloc] initWithFrame:CGRectMake(20, 64, 200, 80)];
+    view.backgroundColor = [UIColor purpleColor];
+    view.hidden = YES;
+    [self.view addSubview:view];
+    
+    view1 = [[UIView alloc] init];
+    view1.bounds = CGRectMake(0, 0, 200, 80);
+    view1.center = CGPointMake(view.center.x, view.center.y + view.frame.size.height + 10);
+    view1.backgroundColor = [UIColor blueColor];
+    [self.view addSubview:view1];
+
+    UIView *view2 = [[UIView alloc] init];
+    view2.bounds = CGRectMake(0, 0, 200, 80);
+
+    view2.center = CGPointMake(view1.center.x, view1.center.y + view1.frame.size.height + 10);
+    view2.backgroundColor = [UIColor darkGrayColor];
+    [self.view addSubview:view2];
+
+    
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+//    view.hidden = YES;
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
