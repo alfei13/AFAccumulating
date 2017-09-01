@@ -11,5 +11,17 @@
 @implementation AFAppItem
 
 
+- (instancetype)initWithDict:(NSDictionary *)dict
+{
+    if (self = [super init]) {
+        self.name = dict[@"name"];
+        self.title = dict[@"title"];
+    }
+    return self;
+}
 
++ (instancetype)appItemWithDict:(NSDictionary *)dict
+{
+    return [[self alloc] initWithDict:dict];
+}
 @end

@@ -9,7 +9,18 @@
 /* Begin PBXBuildFile section */
 		77BA6BAA0EACF35F10232810 /* libPods-AFAccumulating.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D9A0B89707CBBCEAEF7B6E /* libPods-AFAccumulating.a */; };
 		9677E02111AA8F422FDBCB5C /* libPods-AFAccumulatingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C9D48B0DF84A992E27B457 /* libPods-AFAccumulatingUITests.a */; };
+		E15928FF1F593F3F00D585EF /* AFKyushuView.m in Sources */ = {isa = PBXBuildFile; fileRef = E15928FE1F593F3F00D585EF /* AFKyushuView.m */; };
+		E159291A1F594A4100D585EF /* NSDate+AFDealTime.m in Sources */ = {isa = PBXBuildFile; fileRef = E15929051F594A4100D585EF /* NSDate+AFDealTime.m */; };
+		E159291B1F594A4100D585EF /* NSNull+AFNullCast.m in Sources */ = {isa = PBXBuildFile; fileRef = E15929071F594A4100D585EF /* NSNull+AFNullCast.m */; };
+		E159291C1F594A4100D585EF /* NSString+AFURL.m in Sources */ = {isa = PBXBuildFile; fileRef = E15929091F594A4100D585EF /* NSString+AFURL.m */; };
+		E159291D1F594A4100D585EF /* UIBarButtonItem+AFItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E159290C1F594A4100D585EF /* UIBarButtonItem+AFItem.m */; };
+		E159291E1F594A4100D585EF /* UIColor+AFColorSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E159290E1F594A4100D585EF /* UIColor+AFColorSet.m */; };
+		E159291F1F594A4100D585EF /* UIImage+AFAntialias.m in Sources */ = {isa = PBXBuildFile; fileRef = E15929101F594A4100D585EF /* UIImage+AFAntialias.m */; };
+		E15929201F594A4100D585EF /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = E15929121F594A4100D585EF /* UIImage+Image.m */; };
+		E15929211F594A4100D585EF /* UITextField+AFPlaceHolderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E15929141F594A4100D585EF /* UITextField+AFPlaceHolderColor.m */; };
+		E15929221F594A4100D585EF /* UIView+AFFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = E15929161F594A4100D585EF /* UIView+AFFrame.m */; };
 		E1789A511F4EABE7009B6A81 /* AFAppItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E1789A501F4EABE7009B6A81 /* AFAppItem.m */; };
+		E18D00961F57F61000A22B9B /* UIResponder+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = E18D00941F57F61000A22B9B /* UIResponder+Router.m */; };
 		E1C78CBE1F4D8B41000BEA17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C78CBD1F4D8B41000BEA17 /* main.m */; };
 		E1C78CC11F4D8B41000BEA17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C78CC01F4D8B41000BEA17 /* AppDelegate.m */; };
 		E1C78CC41F4D8B41000BEA17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C78CC31F4D8B41000BEA17 /* ViewController.m */; };
@@ -36,8 +47,30 @@
 		A1C9D48B0DF84A992E27B457 /* libPods-AFAccumulatingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFAccumulatingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80E1DB90C61E84B1F5D2DD6 /* Pods-AFAccumulatingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFAccumulatingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFAccumulatingUITests/Pods-AFAccumulatingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE230B8A708D841B485711AD /* Pods-AFAccumulating.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFAccumulating.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFAccumulating/Pods-AFAccumulating.debug.xcconfig"; sourceTree = "<group>"; };
+		E15928FD1F593F3F00D585EF /* AFKyushuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFKyushuView.h; sourceTree = "<group>"; };
+		E15928FE1F593F3F00D585EF /* AFKyushuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFKyushuView.m; sourceTree = "<group>"; };
+		E15929041F594A4100D585EF /* NSDate+AFDealTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+AFDealTime.h"; sourceTree = "<group>"; };
+		E15929051F594A4100D585EF /* NSDate+AFDealTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+AFDealTime.m"; sourceTree = "<group>"; };
+		E15929061F594A4100D585EF /* NSNull+AFNullCast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+AFNullCast.h"; sourceTree = "<group>"; };
+		E15929071F594A4100D585EF /* NSNull+AFNullCast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+AFNullCast.m"; sourceTree = "<group>"; };
+		E15929081F594A4100D585EF /* NSString+AFURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AFURL.h"; sourceTree = "<group>"; };
+		E15929091F594A4100D585EF /* NSString+AFURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AFURL.m"; sourceTree = "<group>"; };
+		E159290B1F594A4100D585EF /* UIBarButtonItem+AFItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+AFItem.h"; sourceTree = "<group>"; };
+		E159290C1F594A4100D585EF /* UIBarButtonItem+AFItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+AFItem.m"; sourceTree = "<group>"; };
+		E159290D1F594A4100D585EF /* UIColor+AFColorSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AFColorSet.h"; sourceTree = "<group>"; };
+		E159290E1F594A4100D585EF /* UIColor+AFColorSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AFColorSet.m"; sourceTree = "<group>"; };
+		E159290F1F594A4100D585EF /* UIImage+AFAntialias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFAntialias.h"; sourceTree = "<group>"; };
+		E15929101F594A4100D585EF /* UIImage+AFAntialias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AFAntialias.m"; sourceTree = "<group>"; };
+		E15929111F594A4100D585EF /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		E15929121F594A4100D585EF /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		E15929131F594A4100D585EF /* UITextField+AFPlaceHolderColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+AFPlaceHolderColor.h"; sourceTree = "<group>"; };
+		E15929141F594A4100D585EF /* UITextField+AFPlaceHolderColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+AFPlaceHolderColor.m"; sourceTree = "<group>"; };
+		E15929151F594A4100D585EF /* UIView+AFFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AFFrame.h"; sourceTree = "<group>"; };
+		E15929161F594A4100D585EF /* UIView+AFFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AFFrame.m"; sourceTree = "<group>"; };
 		E1789A4F1F4EABE7009B6A81 /* AFAppItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppItem.h; sourceTree = "<group>"; };
 		E1789A501F4EABE7009B6A81 /* AFAppItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppItem.m; sourceTree = "<group>"; };
+		E18D00941F57F61000A22B9B /* UIResponder+Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+Router.m"; path = "../../UIResponder+Router.m"; sourceTree = "<group>"; };
+		E18D00951F57F61000A22B9B /* UIResponder+Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIResponder+Router.h"; path = "../../UIResponder+Router.h"; sourceTree = "<group>"; };
 		E1C78CB91F4D8B41000BEA17 /* AFAccumulating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFAccumulating.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C78CBD1F4D8B41000BEA17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E1C78CBF1F4D8B41000BEA17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,6 +126,99 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E15928FB1F593DC900D585EF /* encapsulation */ = {
+			isa = PBXGroup;
+			children = (
+				E15928FD1F593F3F00D585EF /* AFKyushuView.h */,
+				E15928FE1F593F3F00D585EF /* AFKyushuView.m */,
+			);
+			name = encapsulation;
+			sourceTree = "<group>";
+		};
+		E15929001F593F5A00D585EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1789A4F1F4EABE7009B6A81 /* AFAppItem.h */,
+				E1789A501F4EABE7009B6A81 /* AFAppItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E15929011F594A4100D585EF /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E15929021F594A4100D585EF /* Category */,
+				E15929171F594A4100D585EF /* Configration */,
+				E15929181F594A4100D585EF /* OGFRequest */,
+				E15929191F594A4100D585EF /* 未命名文件夹 */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E15929021F594A4100D585EF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E15929031F594A4100D585EF /* NS */,
+				E159290A1F594A4100D585EF /* UI */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E15929031F594A4100D585EF /* NS */ = {
+			isa = PBXGroup;
+			children = (
+				E15929041F594A4100D585EF /* NSDate+AFDealTime.h */,
+				E15929051F594A4100D585EF /* NSDate+AFDealTime.m */,
+				E15929061F594A4100D585EF /* NSNull+AFNullCast.h */,
+				E15929071F594A4100D585EF /* NSNull+AFNullCast.m */,
+				E15929081F594A4100D585EF /* NSString+AFURL.h */,
+				E15929091F594A4100D585EF /* NSString+AFURL.m */,
+			);
+			path = NS;
+			sourceTree = "<group>";
+		};
+		E159290A1F594A4100D585EF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E159290B1F594A4100D585EF /* UIBarButtonItem+AFItem.h */,
+				E159290C1F594A4100D585EF /* UIBarButtonItem+AFItem.m */,
+				E159290D1F594A4100D585EF /* UIColor+AFColorSet.h */,
+				E159290E1F594A4100D585EF /* UIColor+AFColorSet.m */,
+				E159290F1F594A4100D585EF /* UIImage+AFAntialias.h */,
+				E15929101F594A4100D585EF /* UIImage+AFAntialias.m */,
+				E15929111F594A4100D585EF /* UIImage+Image.h */,
+				E15929121F594A4100D585EF /* UIImage+Image.m */,
+				E15929131F594A4100D585EF /* UITextField+AFPlaceHolderColor.h */,
+				E15929141F594A4100D585EF /* UITextField+AFPlaceHolderColor.m */,
+				E15929151F594A4100D585EF /* UIView+AFFrame.h */,
+				E15929161F594A4100D585EF /* UIView+AFFrame.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E15929171F594A4100D585EF /* Configration */ = {
+			isa = PBXGroup;
+			children = (
+				E18D00941F57F61000A22B9B /* UIResponder+Router.m */,
+				E18D00951F57F61000A22B9B /* UIResponder+Router.h */,
+			);
+			path = Configration;
+			sourceTree = "<group>";
+		};
+		E15929181F594A4100D585EF /* OGFRequest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OGFRequest;
+			sourceTree = "<group>";
+		};
+		E15929191F594A4100D585EF /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
 		E1C78CB01F4D8B41000BEA17 = {
 			isa = PBXGroup;
 			children = (
@@ -116,12 +242,13 @@
 		E1C78CBB1F4D8B41000BEA17 /* AFAccumulating */ = {
 			isa = PBXGroup;
 			children = (
+				E15929011F594A4100D585EF /* Tools */,
 				E1C78CBF1F4D8B41000BEA17 /* AppDelegate.h */,
 				E1C78CC01F4D8B41000BEA17 /* AppDelegate.m */,
 				E1C78CC21F4D8B41000BEA17 /* ViewController.h */,
 				E1C78CC31F4D8B41000BEA17 /* ViewController.m */,
-				E1789A4F1F4EABE7009B6A81 /* AFAppItem.h */,
-				E1789A501F4EABE7009B6A81 /* AFAppItem.m */,
+				E15929001F593F5A00D585EF /* Model */,
+				E15928FB1F593DC900D585EF /* encapsulation */,
 				E1C78CBC1F4D8B41000BEA17 /* Supporting Files */,
 			);
 			path = AFAccumulating;
@@ -352,9 +479,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1C78CC41F4D8B41000BEA17 /* ViewController.m in Sources */,
+				E18D00961F57F61000A22B9B /* UIResponder+Router.m in Sources */,
+				E159291B1F594A4100D585EF /* NSNull+AFNullCast.m in Sources */,
 				E1789A511F4EABE7009B6A81 /* AFAppItem.m in Sources */,
+				E159291A1F594A4100D585EF /* NSDate+AFDealTime.m in Sources */,
 				E1C78CC11F4D8B41000BEA17 /* AppDelegate.m in Sources */,
+				E15929221F594A4100D585EF /* UIView+AFFrame.m in Sources */,
+				E15929211F594A4100D585EF /* UITextField+AFPlaceHolderColor.m in Sources */,
+				E159291E1F594A4100D585EF /* UIColor+AFColorSet.m in Sources */,
+				E15929201F594A4100D585EF /* UIImage+Image.m in Sources */,
+				E15928FF1F593F3F00D585EF /* AFKyushuView.m in Sources */,
 				E1C78CBE1F4D8B41000BEA17 /* main.m in Sources */,
+				E159291F1F594A4100D585EF /* UIImage+AFAntialias.m in Sources */,
+				E159291D1F594A4100D585EF /* UIBarButtonItem+AFItem.m in Sources */,
+				E159291C1F594A4100D585EF /* NSString+AFURL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

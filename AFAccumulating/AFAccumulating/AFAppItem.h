@@ -9,11 +9,13 @@
 #import <Foundation/Foundation.h>
 
 @interface AFAppItem : NSObject
+
 /** name */
 @property (nonatomic, copy) NSString *name;
-
 /** title */
 @property (nonatomic, copy) NSString *title;
 
+- (instancetype)initWithDict:(NSDictionary *)dict;
++ (instancetype)appItemWithDict:(NSDictionary *)dict;
 
 @end
