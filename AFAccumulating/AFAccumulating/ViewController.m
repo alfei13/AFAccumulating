@@ -60,8 +60,6 @@
 //    view2.center = CGPointMake(view1.center.x, view1.center.y + view1.frame.size.height + 10);
 //    view2.backgroundColor = [UIColor darkGrayColor];
 //    [self.view addSubview:view2];
-//
-//    
 //}
 
 - (void)viewWillAppear:(BOOL)animated {

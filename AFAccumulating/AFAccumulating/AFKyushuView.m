@@ -116,16 +116,17 @@
 {
     NSLog(@"overideButtonClick----%ld",button.tag);
     
+    
 }
 
-
+#pragma mark - load from xib/storyboard
 /**
  * 当控件从xib\storyboard中创建完毕时，就会调用这个方法
  * 当控件从xib\storyboard中创建完毕后的初始化操作。应该在这个方法中执行
  */
 - (void)awakeFromNib
 {
-    
+    [super awakeFromNib];
 }
 
 /**
@@ -138,6 +139,7 @@
     }
     return self;
 }
+
 
 
 @end
